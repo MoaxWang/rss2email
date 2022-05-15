@@ -6,7 +6,7 @@ Delivers news from feeds (RSS, Atom, ...) to your mail box.
 
 Digested HTML format
 
-Required Env
+**Required Env**::
 ~~~~~~~~~~~~~~
 **Required**::
 
@@ -24,6 +24,13 @@ How to use it?
    
    vim crontab
    minute hour day_of_month month day_of_week user_name cd ./location && python rss2email.py
+   
+RSS Link
+~~~~~~~~~~~~~~
+**Science**::
+   https://www.science.org/action/showFeed?type=axatoc
+**Nature**::
+   https://www.science.org/action/showFeed?type=axatoc
    
 License?
 ~~~~~~~~
