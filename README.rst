@@ -16,8 +16,9 @@ How to use it?
 1. ``cp rss2email.py config.py data``.
 2. Edit ``config.py``.
 3. run in python ``python rss2email.py``
-4. Task::
+4. Task:
    ``vim crontab``
+   
    ``minute hour day_of_month month day_of_week user_name cd ./location && python rss2email.py``
 
 RSS Link
