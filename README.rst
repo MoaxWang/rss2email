@@ -4,16 +4,9 @@ rss2email done simple.
 
 Delivers news from feeds (RSS, Atom, ...) to your mail box.
 
-How to install
+Required Env
 ~~~~~~~~~~~~~~
-
-Simply check out the Git repository or download the Python file.
-
-**Docker**::
-
-   docker build -t feed2mail .
-
-**Alternatively, manual virtualenv**::
+**Required**::
 
    pip install html2text feedparser
 
