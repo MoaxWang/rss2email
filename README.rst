@@ -6,9 +6,8 @@ Delivers news from feeds (RSS, Atom, ...) to your mail box.
 
 Digested HTML format
 
-**Required Env**::
+**Required Env**
 ~~~~~~~~~~~~~~
-**Required**::
 
    pip install html2text feedparser
 
@@ -27,9 +26,9 @@ How to use it?
    
 RSS Link
 ~~~~~~~~~~~~~~
-**Science**::
+Science:
    https://www.science.org/action/showFeed?type=axatoc
-**Nature**::
+Nature:
    https://www.science.org/action/showFeed?type=axatoc
    
 License?
