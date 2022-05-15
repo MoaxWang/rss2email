@@ -4,6 +4,8 @@ rss2email done simple.
 
 Delivers news from feeds (RSS, Atom, ...) to your mail box.
 
+Digested HTML format
+
 Required Env
 ~~~~~~~~~~~~~~
 **Required**::
@@ -12,20 +14,17 @@ Required Env
 
 How to use it?
 ~~~~~~~~~~~~~~
-1. ``cp example_config.py config.py``.
+1. ``cp rss2email.py config.py data``.
 2. Edit ``config.py``.
-3. Run feed2mail every *N* seconds/hours/decades. For Docker setup::
+3. run in python::
 
-     docker run -v /path/to/your/seen/file:/seen feed2mail
-    
-   For manual virtualenv setup, simply run ``feed2mail.py``.
-
-I've found a bug!
-~~~~~~~~~~~~~~~~~
-Great! `Please open a ticket`_.
-
-.. _Please open a ticket: http://github.com/jonashaag/feed2mail/issues/
-
+   python rss2email.py
+   
+4. Task::
+   
+   vim crontab
+   minute hour day_of_month month day_of_week user_name cd ./location && python rss2email.py
+   
 License?
 ~~~~~~~~
 ISC
