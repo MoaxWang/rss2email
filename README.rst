@@ -1,4 +1,4 @@
-rss2mail
+rss2email
 ---------
 rss2email done simple.
 
