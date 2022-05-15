@@ -1,4 +1,4 @@
-feed2mail
+rss2mail
 ---------
 rss2email done simple.
 
@@ -15,6 +15,7 @@ How to use it?
 ~~~~~~~~~~~~~~
 1. ``cp rss2email.py config.py data``.
 2. Edit ``config.py``.
+
 **3. run in python**::
 
    python rss2email.py
